@@ -2,5 +2,4 @@ language: python
 python:
   - "3.5"
   - "3.6"      # current default Python on Travis CI
-script:
-  - carat_test
+script: python3 test_rpn.py
